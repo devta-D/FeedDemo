@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SORT BY"
+            android:padding="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:scrollbarSize="8dp">
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <RadioButton
+                    android:id="@+id/radio_newest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Newest First"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_oldest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Oldest First"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_views_high_to_low"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Views High to Low"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_views_low_to_high"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Views Low to High"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_likes_high_to_low"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Likes High to Low"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_likes_low_to_high"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Likes Low to High"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_shares_high_to_low"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shares High to Low"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_shares_low_to_high"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shares Low to High"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginTop="16dp"/>
+
+            </RadioGroup>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</layout>

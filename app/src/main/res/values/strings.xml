@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unlu</string>
+
+    <string name="txt_no_internet">No Internet Connection</string>
+    <string name="txt_no_internet_text">You need to have Mobile Data or WiFi to perform this action.</string>
+    <string name="btn_text_retry">Retry</string>
+    <string name="btn_text_ok">Okay</string>
+</resources>
